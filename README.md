@@ -1,12 +1,23 @@
-# React + Vite
+# Ethan Greenfield — Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A static portfolio site showcasing my web development projects.
 
-Currently, two official plugins are available:
+**Live site:** [hevanx.github.io/web-portfolio](https://hevanx.github.io/web-portfolio) *(or Vercel link once deployed)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Projects
 
-## Expanding the ESLint configuration
+### Citrus Ember Cafe
+Multi-page restaurant website built with vanilla HTML, CSS, and JavaScript.
+- **Live:** https://citrus-ember-cafe.vercel.app/
+- **Repo:** https://github.com/hevanx/citrus-ember-cafe
+- **Stack:** HTML, CSS, JavaScript
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Movie Tracker
+React app to track movies you want to watch or have watched.
+- **Live:** https://movie-tracker-nu-woad.vercel.app/
+- **Repo:** https://github.com/hevanx/movie-tracker
+- **Stack:** React, React Router, Tailwind CSS, Vite
+
+## Tech Used
+
+HTML · CSS · JavaScript · Git · GitHub Pages / Vercel

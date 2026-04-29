@@ -1,19 +1,125 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ethan Greenfield | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
 
+  <nav class="navbar">
+    <span class="nav-name">Ethan Greenfield</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
 
+  <section class="hero">
+    <h1>Hi, I'm Ethan Greenfield</h1>
+    <p class="hero-sub">A web developer who builds clean, functional websites and apps.</p>
+    <div class="hero-links">
+      <a href="#projects" class="btn">View My Work</a>
+      <a href="https://github.com/hevanx" target="_blank" class="btn btn-outline">GitHub</a>
+    </div>
+  </section>
 
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I'm a web development student with experience building both static websites and React-based applications.
+      I enjoy creating projects from scratch — handling everything from layout and styling to logic and deployment.
+      I'm comfortable working with HTML, CSS, JavaScript, and React, and I deploy my work using Vercel and GitHub.
+    </p>
+    <div class="skills">
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+      <span class="skill">React</span>
+      <span class="skill">React Router</span>
+      <span class="skill">Tailwind CSS</span>
+      <span class="skill">Vite</span>
+      <span class="skill">Git</span>
+      <span class="skill">Vercel</span>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+
+      <div class="card">
+        <img src="assets/embercafe.png" alt="Citrus Ember Cafe screenshot" class="card-img" />
+        <h3>Citrus Ember Cafe</h3>
+        <p class="card-desc">
+          A multi-page restaurant website built with vanilla HTML, CSS, and JavaScript.
+          Features a menu page, an about section, and a contact form — all without any frameworks.
+        </p>
+        <div class="tech-stack">
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+          <span class="tag">JavaScript</span>
+        </div>
+        <div class="retro">
+          <h4>Retrospective</h4>
+          <p>
+            This was one of my first complete multi-page builds. Looking back, I'd improve the mobile
+            responsiveness — the layout breaks on smaller screens in a few places. I'd also restructure
+            the CSS to use custom properties instead of repeated hard-coded values, which would make
+            theming and updates much cleaner.
+          </p>
+        </div>
+        <div class="card-links">
+          <a href="https://citrus-ember-cafe.vercel.app/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/hevanx/citrus-ember-cafe" target="_blank" class="btn btn-outline">GitHub</a>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="assets/movietracker.png" alt="Movie Tracker screenshot" class="card-img" />
+        <h3>Movie Tracker</h3>
+        <p class="card-desc">
+          A React app to track movies you want to watch or have already watched.
+          Uses React Router for multi-page navigation and Tailwind CSS for styling.
+        </p>
+        <div class="tech-stack">
+          <span class="tag">React</span>
+          <span class="tag">React Router</span>
+          <span class="tag">Tailwind CSS</span>
+          <span class="tag">Vite</span>
+        </div>
+        <div class="retro">
+          <h4>Retrospective</h4>
+          <p>
+            This project taught me a lot about React state and component structure. If I rebuilt it,
+            I'd add localStorage so the movie list persists between sessions — right now it resets on
+            every refresh. I'd also add filtering by genre or watch status, and tighten up the
+            responsive layout for mobile.
+          </p>
+        </div>
+        <div class="card-links">
+          <a href="https://movie-tracker-nu-woad.vercel.app/" target="_blank" class="btn">Live Demo</a>
+          <a href="https://github.com/hevanx/movie-tracker" target="_blank" class="btn btn-outline">GitHub</a>
+        </div>
+      </div>
 
     </div>
+  </section>
 
-    
-  </body>
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Feel free to reach out — I'm open to opportunities, feedback, or just connecting.</p>
+    <div class="contact-links">
+      <a href="mailto:egreenfld@gmail.com" class="btn">Email Me</a>
+      <a href="https://github.com/hevanx" target="_blank" class="btn btn-outline">GitHub</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2026 Ethan Greenfield</p>
+  </footer>
+
+</body>
 </html>
